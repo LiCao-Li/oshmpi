@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Welcome to OSHMPI"
+---
+
+
+OpenSHMEM is an increasingly popular standard of the SHMEM programming model. There are many different OpenSHMEM implementations such as Sandia OpenSHMEM, OSHMEM in Open MPI, Cray SHMEM etc. Many of these implementations utilize only one or a few network providers and platforms.
+
+On the other hand, MPI has been the de facto standard for parallel programming for more than 2 decades. Popular MPI implementations provide good performance on supports a wide range of platforms. To leverage MPI’s performance and portability, we attempt to build an OpenSHMEM implementation on top of MPI, called <em><strong>OSHMPI</strong></em>
+
+<div style="text-align: certer"><img class="alignnone wp-image-222" src="http://www.mcs.anl.gov/project/oshmpi/files/2018/11/Screen-Shot-2018-11-12-at-1.12.57-PM-300x91.png" alt="" width="597" height="181" srcset="https://www.mcs.anl.gov/project/oshmpi/files/2018/11/Screen-Shot-2018-11-12-at-1.12.57-PM-300x91.png 300w, https://www.mcs.anl.gov/project/oshmpi/files/2018/11/Screen-Shot-2018-11-12-at-1.12.57-PM-768x233.png 768w, https://www.mcs.anl.gov/project/oshmpi/files/2018/11/Screen-Shot-2018-11-12-at-1.12.57-PM-1024x310.png 1024w, https://www.mcs.anl.gov/project/oshmpi/files/2018/11/Screen-Shot-2018-11-12-at-1.12.57-PM-220x67.png 220w, https://www.mcs.anl.gov/project/oshmpi/files/2018/11/Screen-Shot-2018-11-12-at-1.12.57-PM.png 1308w" sizes="(max-width: 597px) 100vw, 597px"></div>
